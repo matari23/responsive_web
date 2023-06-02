@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* 웹폰트css */
+@font-face{
+    font-family: "NanumGothic";
+    src: url(../webfont/NanumGothic.eot);
+}
+@font-face{
+    font-family: "NanumGothic";
+    src: url(../webfont/NanumGothic.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+body {
+    background: url(../images/s_images/body_bg.png);
+    font-family: "NanumGothic","나눔고딕","맑은고딕",sans-serif;
+    line-height: 1;
+}
+
+li,ul {list-style: none;}
+
+a {text-decoration: none;color: inherit;}
+
+img{vertical-align: top;}
+
+table{border-collapse: collapse;border-spacing: 0;}
+
+input{border: 1px solid #e65d5d;color: #666;}
+
+input::placeholder{color: #999;}
+
+input::-moz-input-placeholder{color: #999;}
+
+input::-webkit-input-placeholder{color: #999;}
